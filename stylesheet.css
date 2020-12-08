@@ -1,5 +1,5 @@
 h1 {
-  color: red;
+  color: maroon;
   text-align: center;
   font-size: 3em;
 }
@@ -36,7 +36,7 @@ nav #nav-middle {
 
 @media (max-width: 768px) {
   h1 {
-    color: green;
+    color: darkgreen;
     font-size: 2.3em;
   }
 }
@@ -44,7 +44,7 @@ nav #nav-middle {
 @media (max-width: 576px) {
   h1 {
     font-size: 1.8em;
-    color: blue;
+    color: lightblue;
   }
   nav {
     width: 100%;

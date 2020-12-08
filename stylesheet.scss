@@ -1,5 +1,9 @@
+$h1color: maroon;
+$h1colorMd:darkgreen;
+$h1colorSm:lightblue;
+
 h1 {
-    color: red;
+    color: $h1color;
     text-align: center;
     font-size: 3em;
 }
@@ -15,7 +19,7 @@ nav {
         list-style-type: none;
     }
 #nav-middle {
-    background-color: red;
+    background-color: red; // to help visualise the flex container for middle nav.
     flex: 1;
     max-width: 50%;
     display: flex;
@@ -28,7 +32,7 @@ nav {
 
 @media (max-width: 768px) {
     h1 {
-        color: green;
+        color: $h1colorMd;
         font-size: 2.3em;
     }
 }
@@ -36,7 +40,7 @@ nav {
 @media (max-width: 576px) {
     h1 {
         font-size: 1.8em;
-        color:blue;
+        color:$h1colorSm;
     }
 
     nav {
