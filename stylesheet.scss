@@ -1,0 +1,56 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 3em;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    ul, li {
+        display: inline;
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+    }
+#nav-middle {
+    background-color: red;
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    }
+}
+
+// Media Queries
+
+
+@media (max-width: 768px) {
+    h1 {
+        color: green;
+        font-size: 2.3em;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8em;
+        color:blue;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        ul, li {
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            margin: 0px;
+            list-style-type: none;
+        }
+    }
+}
